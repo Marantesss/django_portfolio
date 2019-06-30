@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('hello_world.urls')),
+    path('', include('hello_world.urls')), # this looks for a module urls.py in hello_world application and registers any URLs defined there
 ]
