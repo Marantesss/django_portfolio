@@ -1,0 +1,15 @@
+### VS Code ###
+.vscode
+
+### Virtual Environment ###
+env/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
