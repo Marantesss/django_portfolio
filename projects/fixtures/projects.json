@@ -1,0 +1,32 @@
+[
+    {
+      "model": "projects.Project",
+      "pk": 1,
+      "fields": {
+        "title": "John",
+        "description": "Lennon",
+        "technology": "Django",
+        "image": "img/project1.png"
+      }
+    },
+    {
+      "model": "projects.Project",
+      "pk": 2,
+      "fields": {
+        "title": "Paul",
+        "description": "Ola",
+        "technology": "Flask",
+        "image": "img/project2.png"
+      }
+    },
+    {
+        "model": "projects.Project",
+        "pk": 3,
+        "fields": {
+          "title": "Mar",
+          "description": "Ola",
+          "technology": "Flask",
+          "image": "img/project3.png"
+        }
+      }
+  ]
