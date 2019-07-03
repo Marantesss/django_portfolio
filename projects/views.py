@@ -28,7 +28,7 @@ def project_detail(request, pk):
     The context dictionary is used to send information to our template.
     '''
     context = {
-        'projects': project
+        'project': project
     }
     return render(request, 'project_detail.html', context)
 

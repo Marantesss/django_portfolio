@@ -1,7 +1,6 @@
 [
     {
       "model": "projects.Project",
-      "pk": 1,
       "fields": {
         "title": "John",
         "description": "Lennon",
@@ -11,7 +10,6 @@
     },
     {
       "model": "projects.Project",
-      "pk": 2,
       "fields": {
         "title": "Paul",
         "description": "Ola",
@@ -21,7 +19,6 @@
     },
     {
         "model": "projects.Project",
-        "pk": 3,
         "fields": {
           "title": "Mar",
           "description": "Ola",
